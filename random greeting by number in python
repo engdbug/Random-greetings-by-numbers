@@ -1,0 +1,18 @@
+import random
+
+greetings = {
+    1: "Hi",
+    2: "What's up!",
+    3: "Hey",
+    4: "Yo",
+    5: "What'cha want?",
+    6: "Can I help you?",
+    7: "I'm not home!"
+}
+
+i = random.randint(1,7)
+
+print(greetings[i])
+
+if i == 7:
+    print("Ok, just leaving then.")
